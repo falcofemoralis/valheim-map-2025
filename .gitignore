@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Never ignore the .gitignore file itself
+!.gitignore
+
+# Whitelist any file or folder whose name begins with "BSL_Community"
+!BSL_Community*
+
+# If you have subdirectories like "BSL_Community_forestMaskTexCache" and want
+# to track the contents of these directories, also un-ignore their children
+!BSL_Community*/**
